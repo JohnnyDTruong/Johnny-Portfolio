@@ -4708,15 +4708,3 @@ input, select, textarea {
 	background-color: lightblue mediumpurple;
 	color: white;
 }
-#more3 {
-	display: none;
-}
-
-#myBtn3 {
-	transition-duration: 0.4s;
-}
-
-	#myBtn3:hover {
-		background-color: lightblue mediumpurple;
-		color: white;
-	}

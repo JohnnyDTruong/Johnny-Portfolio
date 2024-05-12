@@ -1,0 +1,72 @@
+﻿#more3 {
+    display: none;
+}
+
+#myBtn3 {
+    transition-duration: 0.4s;
+}
+
+    #myBtn3:hover {
+        background-color: lightblue mediumpurple;
+        color: white;
+    }
+#more4 {
+    display: none;
+}
+
+#myBtn4 {
+    transition-duration: 0.4s;
+}
+
+    #myBtn4:hover {
+        background-color: lightblue mediumpurple;
+        color: white;
+    }
+#more5 {
+    display: none;
+}
+
+#myBtn5 {
+    transition-duration: 0.4s;
+}
+
+    #myBtn5:hover {
+        background-color: lightblue mediumpurple;
+        color: white;
+    }
+#more6 {
+    display: none;
+}
+
+#myBtn6 {
+    transition-duration: 0.4s;
+}
+
+    #myBtn6:hover {
+        background-color: lightblue mediumpurple;
+        color: white;
+    }
+#more7 {
+    display: none;
+}
+
+#myBtn7 {
+    transition-duration: 0.4s;
+}
+
+    #myBtn7:hover {
+        background-color: lightblue mediumpurple;
+        color: white;
+    }
+#more8 {
+    display: none;
+}
+
+#myBtn8 {
+    transition-duration: 0.4s;
+}
+
+    #myBtn8:hover {
+        background-color: lightblue mediumpurple;
+        color: white;
+    }

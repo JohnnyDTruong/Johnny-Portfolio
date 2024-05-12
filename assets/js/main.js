@@ -29,77 +29,7 @@ function myFunction2() {
 		moreText2.style.display = "inline";
 	}
 };
-function myFunction3() {
-	var dots3 = document.getElementById("dots3");
-	var moreText3 = document.getElementById("more3");
-	var btnText3 = document.getElementById("myBtn3");
 
-	if (dots3.style.display === "none") {
-		dots3.style.display = "inline";
-		btnText3.innerHTML = "Read more";
-		moreText3.style.display = "none";
-	} else {
-		dots3.style.display = "none";
-		btnText3.innerHTML = "Read less";
-		moreText3.style.display = "inline";
-	}
-};
-const clickActions = {};
-const colors = ["red", "orange", "purple"],
-	fonts = ["papyrus", "chiller", "Symbol"];
-let colorIndex = 0;
-let fontIndex = 0;
-clickActions.test = () => {
-
-	document.body.style.backgroundColor = colors[colorIndex];
-	colorIndex = (colorIndex + 1) % colors.length;
-	document.body.style.fontFamily = fonts[fontIndex];
-	fontIndex = (fontIndex + 1) % fonts.length;
-};
-
-document.addEventListener("click", (event) => {
-	let source = event.target;
-	let action = source.dataset.click;
-	clickActions[action]?.();
-});
-
-const clickActionsAgain = {};
-clickActionsAgain.back = () => {
-	document.body.style.backgroundColor = "antiquewhite";
-	document.body.style.fontFamily = "Times New Roman";
-};
-
-document.addEventListener("click", (event) => {
-	let alSource = event.target;
-	let actionAgain = alSource.dataset.click;
-	clickActionsAgain[actionAgain]?.();
-});
-
-const linkedButton = document.querySelector(".label");
-
-linkedButton.addEventListener("click", message);
-
-function message(e) {
-	alert("Thanks for clicking!");
-	const response = confirm("Did you want to continue to the next page?");
-	if (response) {
-		console.log('Ok');
-	} else {
-		console.log('Cancel');
-		e.preventDefault();
-		alert("Task Cancelled");
-	}
-};
-
-const button = document.querySelector(".nameButton");
-
-button.addEventListener("click", updateName);
-
-function updateName() {
-	const name = prompt("Enter your name:");
-	button.textContent = `Recently Viewed by: ${name}`;
-	alert(`Thanks for viewing my website ${name}!`);
-};
 ///////////////////////////////////////////////////////////////////////////////
 (function($) {
 

@@ -5,6 +5,7 @@
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 	<link rel="stylesheet" href="assets/css/main.css" />
+	<link rel="stylesheet" href="assets/css/New.css" />
 	<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 </head>
 <body class="is-preload">
@@ -23,7 +24,7 @@
 				<li><a href="index.html">Homepage/Projects</a></li>
 				<li><a href="me.html">About Me</a></li>
 				<li><a href="generic.html">Resume</a></li>
-				<li class="active" ><a href="elements.html">Certifications</a></li>
+				<li class="active"><a href="elements.html">Certifications</a></li>
 			</ul>
 			<ul class="icons">
 				<li><a target="_blank" ; href="https://www.linkedin.com/in/jonathan-truong-04011317a/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
@@ -41,42 +42,71 @@
 						My Certifications and Awards
 					</h1>
 					<p>
-						Aenean ornare velit lacus varius enim ullamcorper proin aliquam<br />
-						facilisis ante sed etiam magna interdum congue. Lorem ipsum dolor<br />
-						amet nullam sed etiam veroeros.
+						In this section I will be showcasing my degrees, certifications, and awards I have recieved throughout my educational years.
+						This is just the beginning, many more will come in the future. I am eager to constantly learn about the new updates and news
+						about the tech industry and to achieve as many certifications and awards as I can.
 					</p>
 				</header>
-				<div class="image main"><img src="images/pic01.jpg" alt="" /></div>
-				<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fergiat. Pellentesque in mi eu massa lacinia malesuada et a elit. Donec urna ex, lacinia in purus ac, pretium pulvinar mauris. Nunc lorem mauris, fringilla in aliquam at, euismod in lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur sapien risus, commodo eget turpis at, elementum convallis enim turpis, lorem ipsum dolor sit amet nullam.</p>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam tristique libero eu nibh porttitor fermentum. Nullam venenatis erat id vehicula viverra. Nunc ultrices eros ut ultricies condimentum. Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In non lorem sit amet elit placerat maximus. Pellentesque aliquam maximus risus. Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum.</p>
+
+				<button style="display: none; position: fixed; bottom: 10px; right: 6px; z-index: 99;
+					font-size: 14px; background-color: antiquewhite; width: 60px; text-align: center;
+					color: white; cursor: pointer; padding: 2px; border-radius: 1px; "
+						onclick="scrollToTop()" id="scrollBtn" title="Go to top">
+					TOP
+				</button>
+
+				<h2> Bachelor's Degree in Information Systems | California State University, Fullerton | 2019-2023 | </h2>
+				<h3> Cum Laude | Bachelor of Arts | Business Administration </h3>
+				<div class="image main"><img src="images/BAdegree.jpeg" alt="" /></div>
+				<br />
+				<h2> California State University, Fullerton | Dean's List | Spring 2023-Fall 2023 | College of Business and Economics </h2>
+				<div class="image main"><img src="images/Dean2023.jpeg" alt="" /></div>
+				<br />
+				<h2> California State University, Fullerton | Dean's List | Fall 2020 | College of Business and Economics  </h2>
+				<div class="image main"><img src="images/Dean2020.jpeg" alt="" /></div>
 			</section>
 
 		</div>
 
 		<!-- Footer -->
+		<br> <br />
 		<footer id="footer">
-			<section>
-				<form method="post" action="#">
-					<div class="fields">
-						<div class="field">
-							<label for="name">Name</label>
-							<input type="text" name="name" id="name" />
-						</div>
-						<div class="field">
-							<label for="email">Email</label>
-							<input type="text" name="email" id="email" />
-						</div>
-						<div class="field">
-							<label for="message">Message</label>
-							<textarea name="message" id="message" rows="3"></textarea>
-						</div>
+			<!--<section>
+			<form method="post" action="#">
+				<div class="fields">
+					<div class="field">
+						<label for="name">Name</label>
+						<input type="text" name="name" id="name" />
 					</div>
-					<ul class="actions">
-						<li><input type="submit" value="Send Message" /></li>
-					</ul>
-				</form>
+					<div class="field">
+						<label for="email">Email</label>
+						<input type="text" name="email" id="email" />
+					</div>
+					<div class="field">
+						<label for="message">Message</label>
+						<textarea name="message" id="message" rows="3"></textarea>
+					</div>
+				</div>
+				<ul class="actions">
+					<li><input type="submit" value="Send Message" /></li>
+				</ul>
+			</form>
+		</section>-->
+
+			<section>
+				<button class="nameButton" type="button"> Recently Viewed by: Johnny</button>
+				<br>
+				<button class="testbtn" type="button" data-click="test">
+					Spooky Time? Click me!
+				</button>
+				<br>
+				<button class="goBack" type="button" data-click="back">
+					Too scary? Go back!
+				</button>
+				<br>
 			</section>
 			<section class="split contact">
+				<h2 style="text-align: center;"> Contact and Connect </h2>
 				<section class="alt">
 					<h3>Address</h3>
 					<p>
@@ -89,15 +119,16 @@
 				</section>
 				<section>
 					<h3>Email</h3>
-					<p><a href="#">info@untitled.tld</a></p>
+					<p>
+						<a href="mailto:Jonjontruong@yahoo.com"> <i> Personal: </i> Jonjontruong@yahoo.com </a><br />
+						<a href="mailto:Jovoytrue20@gmail.com"> <i> Work: </i> Jovoytrue20@gmail.com </a>
+					</p>
 				</section>
 				<section>
 					<h3>Social</h3>
 					<ul class="icons alt">
-						<li><a href="#" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
-						<li><a href="#" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
-						<li><a href="#" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
-						<li><a href="#" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+						<li><a target="_blank" ; href="https://www.linkedin.com/in/jonathan-truong-04011317a/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+						<li><a target="_blank" ; href="https://github.com/JohnnyDTruong" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
 					</ul>
 				</section>
 			</section>
@@ -105,7 +136,7 @@
 
 		<!-- Copyright -->
 		<div id="copyright">
-			<ul><li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
+			<ul><li>&copy; Jonathan Truong 2024</li><li> Welcome to my Portfolio! </li></ul>
 		</div>
 
 	</div>
@@ -118,6 +149,7 @@
 	<script src="assets/js/breakpoints.min.js"></script>
 	<script src="assets/js/util.js"></script>
 	<script src="assets/js/main.js"></script>
+	<script src="assets/js/New.js"></script>
 
 </body>
 </html>
