@@ -71,6 +71,23 @@
         color: white;
     }
 
+#myBtn9 {
+    transition-duration: 0.4s;
+}
+
+    #myBtn9:hover {
+        background-color: lightblue mediumpurple;
+        color: white;
+    }
+
+#myBtn10 {
+    transition-duration: 0.4s;
+}
+
+    #myBtn10:hover {
+        background-color: lightblue mediumpurple;
+        color: white;
+    }
 
 /* Slideshow CSS */
 * {

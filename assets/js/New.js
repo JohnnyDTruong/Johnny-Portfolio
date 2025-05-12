@@ -104,7 +104,6 @@ function readMore6() {
 		moreText9.style.display = "inline";
 	}
 };
-
 function readMore7() {
 	var dots10 = document.getElementById("dots10");
 	var moreText10 = document.getElementById("more10");
