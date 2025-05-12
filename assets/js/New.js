@@ -89,6 +89,39 @@ function readMore5() {
 		moreText8.style.display = "inline";
 	}
 };
+
+function readMore6() {
+	var dots8 = document.getElementById("dots10");
+	var moreText8 = document.getElementById("more10");
+	var btnText8 = document.getElementById("myBtn10");
+
+	if (dots10.style.display === "none") {
+		dots10.style.display = "inline";
+		btnText10.innerHTML = "Read more";
+		moreText10.style.display = "none";
+	} else {
+		dots10.style.display = "none";
+		btnText10.innerHTML = "Read less";
+		moreText10.style.display = "inline";
+	}
+};
+
+function readMore7() {
+	var dots8 = document.getElementById("dots9");
+	var moreText8 = document.getElementById("more9");
+	var btnText8 = document.getElementById("myBtn9");
+
+	if (dots9.style.display === "none") {
+		dots9.style.display = "inline";
+		btnText9.innerHTML = "Read more";
+		moreText9.style.display = "none";
+	} else {
+		dots9.style.display = "none";
+		btnText9.innerHTML = "Read less";
+		moreText9.style.display = "inline";
+	}
+};
+
 const clickActions = {};
 const colors = ["red", "orange", "purple"],
 	fonts = ["papyrus", "chiller", "Symbol"];
