@@ -79,6 +79,9 @@
         background-color: lightblue mediumpurple;
         color: white;
     }
+#more9 {
+    display: none;
+}
 
 #myBtn10 {
     transition-duration: 0.4s;
@@ -88,6 +91,9 @@
         background-color: lightblue mediumpurple;
         color: white;
     }
+#more10 {
+    display: none;
+}
 
 /* Slideshow CSS */
 * {
