@@ -91,9 +91,9 @@ function readMore5() {
 };
 
 function readMore6() {
-	var dots8 = document.getElementById("dots10");
-	var moreText8 = document.getElementById("more10");
-	var btnText8 = document.getElementById("myBtn10");
+	var dots10 = document.getElementById("dots10");
+	var moreText10 = document.getElementById("more10");
+	var btnText10 = document.getElementById("myBtn10");
 
 	if (dots10.style.display === "none") {
 		dots10.style.display = "inline";
@@ -107,9 +107,9 @@ function readMore6() {
 };
 
 function readMore7() {
-	var dots8 = document.getElementById("dots9");
-	var moreText8 = document.getElementById("more9");
-	var btnText8 = document.getElementById("myBtn9");
+	var dots9 = document.getElementById("dots9");
+	var moreText9 = document.getElementById("more9");
+	var btnText9 = document.getElementById("myBtn9");
 
 	if (dots9.style.display === "none") {
 		dots9.style.display = "inline";
