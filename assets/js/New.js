@@ -121,8 +121,6 @@ function readMore7() {
 	}
 };
 
-
-
 const clickActions = {};
 const colors = ["red", "orange", "purple"],
 	fonts = ["papyrus", "chiller", "Symbol"];
