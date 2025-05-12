@@ -71,6 +71,10 @@
         color: white;
     }
 
+#more9 {
+    display: none;
+}
+
 #myBtn9 {
     transition-duration: 0.4s;
 }
@@ -79,7 +83,8 @@
         background-color: lightblue mediumpurple;
         color: white;
     }
-#more9 {
+
+#more10 {
     display: none;
 }
 
@@ -91,8 +96,8 @@
         background-color: lightblue mediumpurple;
         color: white;
     }
-#more10 {
-    display: none;
+#dots10 {
+    display: inline;
 }
 
 /* Slideshow CSS */
