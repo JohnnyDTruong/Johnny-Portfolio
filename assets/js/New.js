@@ -89,8 +89,23 @@ function readMore5() {
 		moreText8.style.display = "inline";
 	}
 };
-
 function readMore6() {
+	var dots9 = document.getElementById("dots9");
+	var moreText9 = document.getElementById("more9");
+	var btnText9 = document.getElementById("myBtn9");
+
+	if (dots9.style.display === "none") {
+		dots9.style.display = "inline";
+		btnText9.innerHTML = "Read more";
+		moreText9.style.display = "none";
+	} else {
+		dots9.style.display = "none";
+		btnText9.innerHTML = "Read less";
+		moreText9.style.display = "inline";
+	}
+};
+
+function readMore7() {
 	var dots10 = document.getElementById("dots10");
 	var moreText10 = document.getElementById("more10");
 	var btnText10 = document.getElementById("myBtn10");
@@ -106,21 +121,7 @@ function readMore6() {
 	}
 };
 
-function readMore7() {
-	var dots9 = document.getElementById("dots9");
-	var moreText9 = document.getElementById("more9");
-	var btnText9 = document.getElementById("myBtn9");
 
-	if (dots9.style.display === "none") {
-		dots9.style.display = "inline";
-		btnText9.innerHTML = "Read more";
-		moreText9.style.display = "none";
-	} else {
-		dots9.style.display = "none";
-		btnText9.innerHTML = "Read less";
-		moreText9.style.display = "inline";
-	}
-};
 
 const clickActions = {};
 const colors = ["red", "orange", "purple"],
